@@ -7,12 +7,12 @@ Technology stack:
 - lombok
 
 
-Running
--------
+#### Running ####
+
 <pre><code>mvn spring-boot:run</code></pre>
 
-Usage
------
+#### Usage ####
+
 Create an account with £100 starter balance:
 <pre><code>curl -X POST http://localhost:8080/bank/account/createAccount/100</code></pre>
 
@@ -69,8 +69,7 @@ Response:
 }
 ```
 
-#### The camel route builder:####
-
+#### The camel route builder ####
 
 ```java
 @Component
